@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(89, 90, 90);
+            margin: 0px;
+        }
+
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(102,102,102);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            margin-right: 15px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 10px 10px 10px;
+        }
+
+        article{
+            background-color: rgb(223, 223, 223);
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(102, 103, 104);
+        }
+
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+     <h1>Meu site</h1>
+     <nav>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+     </nav>
+    </header>
+    <main>
+     <section id="assunto">
+        <p>Esporte e politica</p>
+
+     </section>
+     <section id="Noticias">
+        <article>
+         <h2>Noticias sobe o Brasil</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur
+             adipisicing elit. Nemo ut incidunt quis consectetur quidem sint, maiores dolorum soluta unde sit commodi odit cupiditate molestias 
+            recusandae aut nobis est mollitia ipsum!</p>
+            <aside>
+                <p>Artigo escrito por Gustavo</p>
+            </aside>
+        </article>
+        <article>
+
+        </article>
+     </section>
+    </main>
+    <footer>
+     <p>Desenvolvido no curso </p>
+    </footer>
+    
+</body>
+</html>
